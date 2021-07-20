@@ -38,10 +38,10 @@ public class Book {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getAuthorName() {
+	public String getAuthor() {
 		return author;
 	}
-	public void setAuthorName(String author) {
+	public void setAuthor(String author) {
 		this.author = author;
 	}
 	public int getPages() {

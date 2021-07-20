@@ -16,6 +16,7 @@ import com.moulik.bookkeeper.repository.BookRepository;
 @CrossOrigin(origins = "http://localhost:4200")
 public class BookController {
 	
+	@Autowired
 	private final BookRepository bookRepository = null;
 	
 	@GetMapping(path="/books")

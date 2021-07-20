@@ -22,7 +22,7 @@ public class BookKeeperApplication {
 		
 		return args -> {
 			Stream.of("HP1","HP2","HP3").forEach(name-> {
-				Book book = new Book(name, "J.K. Rowling", 180);
+				Book book = new Book(name, "JK Rowling", 180);
 				bookRepository.save(book);
 			});
 			bookRepository.findAll().forEach(System.out::println);
