@@ -13,7 +13,14 @@ import com.moulik.bookkeeper.repository.BookRepository;
 @SpringBootApplication
 public class BookKeeperApplication {
 
+	
 	public static void main(String[] args) {
+		/**
+		 * Sets up default configuration
+		 * Starts Spring Application Context
+		 * Performs Classpath Scan for special annotations like @Service @Controller etc
+		 * Starts embedded tomcat server
+		 */
 		SpringApplication.run(BookKeeperApplication.class, args);
 	}
 	
