@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.moulik.bookkeeper.bean.Book;
+import com.moulik.bookkeeper.domain.Book;
 import com.moulik.bookkeeper.repository.BookRepository;
 
 @SpringBootApplication
